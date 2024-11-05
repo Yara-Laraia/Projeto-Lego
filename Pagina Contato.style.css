@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+    font-style: normal;
+    max-width: 100%;
+}
+
+/*cabeçario*/
+
+header {
+    background-image: linear-gradient(126deg, #B41721 33.16%, #E61C28 69.05%);
+    width: 100%;
+}
+
+.faixa {
+    background-color: #F8BF2A;
+    padding: 10px;
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+nav {
+    padding: 10px;
+    text-align: right;
+    max-width: 100%;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+    max-width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    max-width: 100%;
+}
+
+nav a:hover {
+    text-decoration: 3px underline;
+    text-decoration-color: #F8BF2A;
+}
+
+
+/*texto da página*/
+
+main {
+    width: 100%;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 100%;
+
+}
+
+h1 {
+    /*texto*/
+    text-align: center;
+    font-weight: 700;
+    line-height: normal;
+    align-items: center;
+    color: #000;
+
+    border-bottom: 6px solid;
+    border-color: #E61C28;
+    max-width: 100%;
+}
+
+h2 {
+    padding-top: 20px;
+    color: #5E5858;
+    text-align: center;
+    font-weight: 700;
+    line-height: normal;
+    max-width: 100%;
+}
+
+/*formulário*/
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro {
+    display: flex;
+    padding: 20px;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario {
+    color: #5E5858;
+    font-weight: 700;
+    line-height: normal;
+
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #7B7373;
+    border-radius: 10px;
+    padding: 10px;
+    background: #D9D9D9;
+    margin: 10px;
+
+    width: 500px;
+    height: 30px;
+    max-width: 100%;
+}
+
+.enviar {
+    color: #FFF;
+    text-align: center;
+    font-weight: 800;
+    line-height: normal;
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: #E61C28;
+    background: #E61C28;
+    margin: 10px;
+
+    width: 150px;
+    height: 40px;
+    max-width: 100%;
+}
+
+.enviar:hover {
+    background-color: #F8BF2A;
+}
+
+input {
+    max-width: 100%;
+
+}
+
+
+#caixat {
+    height: 190px;
+    width: 400px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*rodapé*/
+
+footer {
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+    background-image: linear-gradient(126deg, #B41721 33.16%, #E61C28 69.05%);
+    flex-direction: column-reverse;
+}
+
+footer a {
+    text-decoration: none;
+    list-style-type: none;
+    max-width: 100%;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #FFF;
+}
+
+
+footer ul li {
+    display: inline;
+    margin: 10px;
+    color: #FFF;
+    text-align: center;
+    max-width: 100%;
+}
+
+footer p {
+    color: #FFF;
+    max-width: 100%;
+}
+
+
+.box1 {
+    max-width: 100%;
+
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.box2 p {
+    font-size: 16px;
+    max-width: 100%;
+}
+
+.box3 {
+    padding: 10px;
+    max-width: 100%;
+}
+
+.box4 {
+    color: #FFF;
+    text-align: center;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #F8BF2A;
+    max-width: 100%;
+}
+
+.conteiner3 {
+    background-image: linear-gradient(126deg, #B41721 33.16%, #E61C28 69.05%);
+    max-width: 100%;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    max-width: 100%;
+}
+
+.conteiner4 {
+    align-content: center;
+    max-width: 100%;
+    padding: 20px;
+}
+
+.conteiner5 {
+    padding: 20px;
+    font-size: 11px;
+    text-align: center;
+    max-width: 100%;
+}
+
+#final {
+    background-color: #F8BF2A;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+
+    header {
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    main {
+        max-width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    h1,
+    h2,
+    p,
+    li {
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .cadastro {
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    section {
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+
+    footer {
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+
+    i {
+        max-width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}

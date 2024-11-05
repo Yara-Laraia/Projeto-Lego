@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Inter;
+  font-style: normal;
+}
+
+.Faixa {
+  background-color: #F8BF2A;
+  padding: 10px;
+}
+
+header {
+  background-image: linear-gradient(126deg, #B41721 33.16%, #E61C28 69.05%);
+}
+
+nav p {
+  display: inline;
+  margin: 10px;
+}
+
+nav p:hover {
+  text-decoration: 3px underline;
+  text-decoration-color: #F8BF2A;
+}
+
+.nome nav {
+  text-align: end;
+  padding: 10px;
+}
+
+.nome a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.Br {
+  text-align: center;
+  padding: 20px;
+  color: rgb(12, 3, 3);
+}
+
+.Br h2 {
+  text-decoration: 4px underline #B41721;
+  padding-bottom: 20px;
+
+}
+
+.RJ {
+  display: flex;
+  color: rgb(12, 12, 12);
+  align-items: center;
+}
+
+.PA {
+  text-align: center;
+  padding: 20px;
+  color: rgb(12, 12, 12);
+
+
+}
+
+.PA h2 {
+  text-decoration: 4px underline #b41721;
+  padding-bottom: 20px;
+}
+
+.SP {
+  display: flex;
+  color: rgb(12, 12, 12);
+  align-items: center;
+  padding-bottom: 20px;
+
+}
+
+
+header {
+  background-color: #B41721;
+  flex-direction: column-reverse;
+
+}
+
+
+footer {
+  background-image: linear-gradient(126deg, #B41721 33.16%, #E61C28 69.05%);
+  flex-direction: column-reverse;
+  justify-content: center;
+  text-align: center;
+}
+
+.linha1 {
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.linha nav {
+  padding: 10px;
+  text-decoration: none;
+}
+
+.linha1 a {
+  padding: 10px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.barrinha {
+  background-color: #F8BF2A;
+  text-align: center;
+  padding: 10px;
+  color: #FFFFFF;
+}
+
+.politica nav {
+  display: flex;
+  padding: 30px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.politica a {
+  text-decoration: none;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.redesociais nav {
+  display: flex;
+  padding: 60px;
+  flex-direction: column-reverse;
+  margin: 30px;
+}
+
+.redesociais a {
+  padding: 10px;
+  text-align: end;
+}
+
+.redesociais p {
+  color: #FFFFFF;
+}
+
+.Faixa {
+  flex-direction: column;
+}
+
+img {
+  max-width: 100%;
+}

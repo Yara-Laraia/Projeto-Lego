@@ -1,0 +1,163 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Inter;
+    font-style: normal;
+
+}
+
+
+/* cabeçalho */
+
+
+
+.faixa {
+    background-color: #F8BF2A;
+    padding: 10px;
+    max-width: 600%;
+}
+
+header {
+    background-image: linear-gradient(126deg, #B41721 33.16%, #E61C28 69.05%);
+
+}
+
+nav p {
+    display: inline;
+    margin: 10px;
+}
+
+.cab nav {
+    text-align: end;
+    padding: 10px;
+
+}
+
+.cab a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.cab p:hover {
+    text-decoration: 3px underline;
+    text-decoration-color:  #F8BF2A;
+}
+
+/* conteudo*/
+
+.toys {
+    display: flex;
+    justify-content: space-around;
+    max-width: 600%;
+
+}
+
+.toy1 {
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    max-width: 600%;
+}
+
+.toy1 p {
+    padding: 20px;
+    max-width: 600%;
+}
+
+.toy1 img {
+    width: 500px;
+    height: 500px;
+    flex-shrink: 0;
+    max-width: 600%;
+}
+
+.toys button {
+    background-color: #E61C28;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    width: 150px;
+    font-weight: 800;
+}
+
+.banner img {
+    width: 1920px;
+    height: 400px;
+    flex-shrink: 0;
+}
+
+/* Rodape */
+
+footer {
+    background-image: linear-gradient(126deg, #B41721 33.16%, #E61C28 69.05%);
+    justify-content: center;
+    text-align: center;
+    flex-direction: column-reverse;
+}
+
+.linha1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    text-align: justify;
+}
+
+.linha1 nav {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.linha1 a {
+    text-decoration: none;
+    color: #FFF;
+    padding: 10px;
+}
+
+.barrinha {
+    background-color: #F8BF2A;
+    text-align: center;
+    padding: 10px;
+    color: #FFF;
+}
+
+.politica nav {
+    padding: 30px;
+    font-size: 11px;
+    text-align: center;
+
+}
+
+.politica a {
+    text-decoration: none;
+    text-align: center;
+    color: #FFF;
+
+}
+
+.redessociais nav {
+    display: flex;
+    padding: 60px;
+    flex-direction: column-reverse;
+    margin: 30px;
+}
+
+.redessociais a {
+    padding: 10px;
+    text-align: end;
+}
+
+.redessociais p {
+    color: #FFF;
+
+}
+
+img{
+    max-width: 100%;
+}
+
+.toy1 img{
+    max-width: 100%;
+}
